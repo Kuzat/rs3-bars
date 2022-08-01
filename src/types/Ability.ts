@@ -8,10 +8,20 @@ export enum Skill {
   none
 }
 
-export type Ability = {
+export interface Ability {
   name: string;
   type: string;
-  description: string;
+  description?: string;
   skill: Skill;
-  imgSrc: string; // Maybe some path but it is a string for now
+  imgSrc: string;
+}
+
+export function mapJsonToAbility(jsonObj: object): Ability {
+  return {
+    name: jsonObj["name"],
+    type: jsonObj["type"],
+    description: jsonObj["description"],
+    skill: jsonObj["skill"],
+    imgSrc: jsonObj["imgSrc"]
+  }
 }
