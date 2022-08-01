@@ -1,0 +1,9 @@
+{
+  "slice": {
+    "name": "Slice",
+    "type": "basic",
+    "description": "placeholder description",
+    "skill": "attack",
+    "imgSrc": "Slice.png"
+  }
+}
