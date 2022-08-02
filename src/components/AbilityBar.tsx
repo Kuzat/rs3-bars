@@ -8,7 +8,7 @@ import { AbilityElement } from "./AbilityElement";
 
 export default function AbilityBar() {
   const db = new AbilitiesDB();
-  const [abilities, setAbilities] = useState<Ability[]>([db.getAbility("slice")]);
+  const [abilities, setAbilities] = useState<Ability[]>(db.listAbilities());
 
   const abilityList = abilities.map((ability) =>
     <AbilityElement key={ability.name} ability={ability} />

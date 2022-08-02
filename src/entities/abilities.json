@@ -1,9 +1,128 @@
 {
   "slice": {
     "name": "Slice",
-    "type": "basic",
+    "type": "Basic",
     "description": "placeholder description",
-    "skill": "attack",
+    "skill": "Attack",
     "imgSrc": "Slice.png"
+  },
+  "backhand": {
+    "name": "Backhand",
+    "type": "Basic",
+    "description": "placeholder description",
+    "skill": "Attack",
+    "imgSrc": "Backhand.png"
+  },
+  "slaughter": {
+    "name": "Slaughter",
+    "type": "Threshold",
+    "description": "placeholder description",
+    "skill": "Attack",
+    "imgSrc": "Slaughter.png"
+  },
+  "overpower": {
+    "name": "Overpower",
+    "type": "Ultimate",
+    "description": "placeholder description",
+    "skill": "Attack",
+    "imgSrc": "Overpower.png"
+  },
+  "havoc": {
+    "name": "Havoc",
+    "type": "Basic",
+    "description": "placeholder description",
+    "skill": "Attack",
+    "imgSrc": "Havoc.png"
+  },
+  "forceful_backhand": {
+    "name": "Forceful Backhand",
+    "type": "Threshold",
+    "description": "placeholder description",
+    "skill": "Attack",
+    "imgSrc": "Forceful_Backhand.webp"
+  },
+  "smash": {
+    "name": "Smash",
+    "type": "Basic",
+    "description": "placeholder description",
+    "skill": "Attack",
+    "imgSrc": "Smash.png"
+  },
+  "barge": {
+    "name": "Barge",
+    "type": "Basic",
+    "description": "placeholder description",
+    "skill": "Attack",
+    "imgSrc": "Barge.png"
+  },
+  "greater_barge": {
+    "name": "Greater Barge",
+    "type": "Basic",
+    "description": "placeholder description",
+    "skill": "Attack",
+    "imgSrc": "Greater_Barge.png"
+  },
+  "greater_flurry": {
+    "name": "Greater Flurry",
+    "type": "Threshold",
+    "description": "placeholder description",
+    "skill": "Attack",
+    "imgSrc": "Greater_Flurry.png"
+  },
+  "flurry": {
+    "name": "Flurry",
+    "type": "Threshold",
+    "description": "placeholder description",
+    "skill": "Attack",
+    "imgSrc": "Flurry.png"
+  },
+  "sever": {
+    "name": "Sever",
+    "type": "Basic",
+    "description": "placeholder description",
+    "skill": "Attack",
+    "imgSrc": "Sever.png"
+  },
+  "hurricane": {
+    "name": "Hurricane",
+    "type": "Threshold",
+    "description": "placeholder description",
+    "skill": "Attack",
+    "imgSrc": "Hurricane.png"
+  },
+  "bladed_dive": {
+    "name": "Bladed Dive",
+    "type": "Basic",
+    "description": "placeholder description",
+    "skill": "Attack",
+    "imgSrc": "Bladed_Dive.png"
+  },
+  "blood_tendrils": {
+    "name": "Blood Tendrils",
+    "type": "Threshold",
+    "description": "placeholder description",
+    "skill": "Attack",
+    "imgSrc": "Blood_Tendrils.png"
+  },
+  "massacre": {
+    "name": "Massacre",
+    "type": "Ultimate",
+    "description": "placeholder description",
+    "skill": "Attack",
+    "imgSrc": "Massacre.png"
+  },
+  "meteor_strike": {
+    "name": "Meteor Strike",
+    "type": "Ultimate",
+    "description": "placeholder description",
+    "skill": "Attack",
+    "imgSrc": "Meteor_Strike.png"
+  },
+  "balanced_strike": {
+    "name": "Balanced Strike",
+    "type": "Ultimate",
+    "description": "placeholder description",
+    "skill": "Attack",
+    "imgSrc": "Balanced_Strike.png"
   }
 }
