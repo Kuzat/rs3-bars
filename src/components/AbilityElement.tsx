@@ -7,9 +7,8 @@ export type AbilityElementProp = {
 
 export function AbilityElement({ ability }: AbilityElementProp) {
   return (
-    <span>
+    <span className="w-100 mx-1">
       <img src={"abilities/" + ability.imgSrc} />
-      This is {ability.name} ability!
     </span>
   )
 }

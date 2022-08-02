@@ -8,14 +8,15 @@ import { AbilityElement } from "./AbilityElement";
 
 export default function AbilityBar() {
   const db = new AbilitiesDB();
-  const [abilities, setAbilities] = useState<Ability[]>(db.listAbilities());
+  // Max 14 number of abilities
+  const [abilities, setAbilities] = useState<Ability[]>(db.listAbilities().slice(0, 14));
 
   const abilityList = abilities.map((ability) =>
     <AbilityElement key={ability.name} ability={ability} />
   );
 
   return (
-    <div>
+    <div className="flex flex-row justify-evenly w-2/3 items-center">
       {abilityList}
     </div>
   )

@@ -3,7 +3,7 @@ import AbilityBar from './components/AbilityBar';
 
 function App() {
   return (
-    <div>
+    <div className='bg-main-bg text-slate-200'>
       {/* 
         1. Make an ability bar components
           - Should be able to show the abilities and the image for the abilities.
