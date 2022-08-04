@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/rs3-bars/static/css/main.d8fc2f28.css",
+    "main.js": "/rs3-bars/static/js/main.421d9339.js",
+    "index.html": "/rs3-bars/index.html",
+    "main.d8fc2f28.css.map": "/rs3-bars/static/css/main.d8fc2f28.css.map",
+    "main.421d9339.js.map": "/rs3-bars/static/js/main.421d9339.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d8fc2f28.css",
+    "static/js/main.421d9339.js"
+  ]
+}
